@@ -12,44 +12,49 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
+
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              I’m a Software Developer who enjoys turning ideas into practical,
+              user-friendly applications. I focus on building clean, reliable,
+              and scalable solutions for real-world use.
               <br />
               <br />
-              I’m proficient in
-              <i>
-                <b className="purple">
-                  {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
-                </b>
-              </i>
-              — and I enjoy working across both backend and frontend stacks.
+              I have hands-on experience working with{" "}
+              <b className="purple">
+                JavaScript, React.js, React Native, HTML, CSS, Bootstrap, PHP,
+                MySQL, Firebase, Python, and MongoDB
+              </b>
+              , and I’m comfortable developing both{" "}
+              <b className="purple">web</b> and{" "}
+              <b className="purple">mobile applications</b>.
               <br />
               <br />
-              My key areas of interest include developing
-              <i>
-                <b className="purple">
-                  {" "}
-                  Web Applications, Blockchain Solutions,{" "}
-                </b>
-              </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
+              I’ve worked on live projects like a{" "}
+              <b className="purple">
+                Salon Booking & Management mobile application
+              </b>{" "}
+              available on the Google Play Store, and a{" "}
+              <b className="purple">real-time video chat application</b>. These
+              projects helped me gain practical experience in application
+              architecture, API integration, performance optimization, and
+              deployment.
               <br />
               <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
-              <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
-              </i>
+              Whenever possible, I love building projects using{" "}
+              <b className="purple">React</b>,{" "}
+              <b className="purple">React Native</b>, and{" "}
+              <b className="purple">Node.js</b>, focusing on clean UI, smooth
+              user experience, and maintainable code.
             </p>
           </Col>
+
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img
+                src={myImg}
+                className="img-fluid"
+                alt="avatar"
+              />
             </Tilt>
           </Col>
         </Row>
@@ -57,4 +62,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
